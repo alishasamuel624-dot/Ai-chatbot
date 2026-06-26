@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "topic": "welcome",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon"],
+      "responses": ["Hello! I am your AI assistant. How can I help you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "topic": "farewell",
+      "patterns": ["bye", "goodbye", "see you later", "take care"],
+      "responses": ["Goodbye! Feel free to come back if you need help again."]
+    },
+    {
+      "tag": "help",
+      "topic": "support",
+      "patterns": ["help", "can you help", "what can you do", "assist me"],
+      "responses": ["I can help with services, pricing, hours, contact details, and general questions."]
+    },
+    {
+      "tag": "services",
+      "topic": "services",
+      "patterns": ["what services do you offer", "services", "what do you provide", "products"],
+      "responses": ["We offer onboarding, customer support, training, and maintenance services."]
+    },
+    {
+      "tag": "pricing",
+      "topic": "pricing",
+      "patterns": ["pricing", "how much", "cost", "price", "rates"],
+      "responses": ["Our pricing depends on the plan. We offer basic, professional, and enterprise options."]
+    },
+    {
+      "tag": "hours",
+      "topic": "hours",
+      "patterns": ["hours", "when are you open", "working time", "business hours"],
+      "responses": ["We are available Monday through Friday from 9 AM to 6 PM."]
+    },
+    {
+      "tag": "contact",
+      "topic": "contact",
+      "patterns": ["contact", "email", "phone", "reach you"],
+      "responses": ["You can contact us by email at support@example.com."]
+    },
+    {
+      "tag": "thanks",
+      "topic": "gratitude",
+      "patterns": ["thank you", "thanks", "appreciate it"],
+      "responses": ["You are welcome! I am happy to help."]
+    },
+    {
+      "tag": "about",
+      "topic": "about",
+      "patterns": ["who are you", "what are you", "about you", "tell me about yourself"],
+      "responses": ["I am a simple AI chatbot built with Python, Flask, and JSON-based intents."]
+    },
+    {
+      "tag": "fallback",
+      "topic": "fallback",
+      "patterns": [],
+      "responses": ["I am not sure how to help with that yet. Try asking about services, pricing, hours, or contact information."]
+    }
+  ]
+}
