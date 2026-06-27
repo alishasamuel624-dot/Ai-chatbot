@@ -34,6 +34,7 @@ h1 {
     padding: 10px 14px;
     border-radius: 8px;
     max-width: 80%;
+    word-wrap: break-word;
 }
 
 .message.user {
@@ -66,4 +67,33 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 16px;
+    }
+
+    #chat-window {
+        height: 320px;
+    }
+
+    .message {
+        max-width: 100%;
+    }
+
+    #chat-form {
+        flex-direction: column;
+    }
+
+    #message-input {
+        width: 100%;
+        padding: 12px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
 }
