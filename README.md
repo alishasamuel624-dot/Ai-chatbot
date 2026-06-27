@@ -32,18 +32,15 @@ A beginner-friendly AI chatbot built with Python, Flask, and JSON-based intents.
 
 ## Open the chatbot
 
-After starting the app, open this link in your browser:
+After starting the app, open one of these links in your browser:
 
 - http://127.0.0.1:5000/
-
-You can also use the local address:
-
 - http://localhost:5000/
 
 ## Deploy on Render
 
 1. Push this project to GitHub.
-2. Create a new Web Service on Render.
+2. Create a new Web Service on Render.a
 3. Connect the GitHub repository.
 4. Use these settings:
    - Build Command: pip install -r requirements.txt
